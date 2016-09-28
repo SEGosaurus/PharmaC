@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+
+<html>
+<title>Testing</title>
+<head>
+
+<style>
+h1 {
+	color: white;
+	text-align: center;
+}
+
+body {
+	background-color: black;
+}
+
+p {
+	color: white;
+	text-align: center;
+}
+
+div.DummyFile{
+  background-color: grey;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: middle;
+  border:  2px solid #333;
+  padding: 10px;
+}
+
+div.MenuBar{
+  position: fixed;
+  width: 99%;
+  background-color: limegreen;
+  border:  2px solid #333;
+  padding: 2px;
+}
+
+div.Border {
+  border: 2px solid black;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: grey;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    color: limegreen;
+}
+
+</style>
+<body>
+
+<div class="MenuBar">
+  <ul>
+    <li><a href="#welcome"><b>Home</b></a></li>
+    <li><a href="#about_us"><b>About Us</b></a></li>
+    <li><a href="#products"><b>Products</b></a></li>
+    <li><a href="#extra"><b>Extra</b></a></li>
+    <li style="float:right"><a class="active" href="#about">About</a></li>
+  </ul>
+</div>
+
+<div class = "DummyFile">
+  
+  <div class = "Border" id="welcome">
+    <div class="DummyFile">
+      <h1><b>Welcome!</b></h1>
+      <p>We at <b>SEGosaurus</b> wish to welcome you to our website!</p>
+    </div>
+  </div>
+
+  <br>
+
+  <div class = "Border" id="about_us">
+    <div class="DummyFile">
+      <h1>About Us</h1>
+      <p>Information about us goes here</p>
+    </div>
+  </div>
+
+  <br>
+
+  <div class = "Border" id="products">
+    <div class="DummyFile">
+      <h1><b>Products</b></h1>
+      <p>Products go here</p>
+    </div>
+  </div>
+
+  <br>
+
+  <div class = "Border" id="extra">
+    <div class="DummyFile">
+      <h1><b>Extra</b></h1>
+      <p>And more....</p>
+    </div>
+  </div>
+</div>
+
+</body>
+</head>
+</html>
