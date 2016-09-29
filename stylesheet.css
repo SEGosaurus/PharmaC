@@ -1,0 +1,112 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans';
+
+
+/* Landing page Style Guide */
+
+#landingBlurb{
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+
+}
+
+.center {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+}
+
+/* End of landing page style guide */
+
+h1 {
+	color: white;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif; /* Changes header one font to Open Sans */
+}
+
+
+body {
+	background-color: black;
+	margin: 0;
+}
+
+p {
+	color: white;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif; /* Changes paragraph font to Open Sans */
+}
+
+#MenuBar{
+  position: fixed;
+  width: 99.5%;
+  background-color: limegreen;
+  border:  2px solid #333;
+  padding: 2px;
+  font-family: 'Open Sans', sans-serif; /* Changes menu font to open sans */
+}
+
+#welcome{
+  border: 2px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+/*
+#Login{
+	border: 1px solid limegreen;
+	box-sizing: border-box;
+}
+*/
+
+#about_us{
+  border: 2px solid black;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#products{
+  border: 2px solid black;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#extra{
+  border: 2px solid black;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#MainCont{
+  background-color: grey;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: middle;
+  border:  2px solid #333;
+  padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: grey;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: limegreen;
+}
+
