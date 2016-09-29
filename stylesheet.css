@@ -1,6 +1,29 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans';
+
+
+#landingBlurb{
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+
+}
+
+.center {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+}
+
+
+
 h1 {
 	color: white;
 	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+}
+/* Header */
+head{
+	font-family: 'Open Sans', sans-serif;
 }
 
 body {
@@ -11,6 +34,7 @@ body {
 p {
 	color: white;
 	text-align: center;
+	font-family: 'Open Sans', sans-serif;
 }
 
 #MenuBar{
@@ -19,27 +43,34 @@ p {
   background-color: limegreen;
   border:  2px solid #333;
   padding: 2px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 #welcome{
   border: 2px solid black;
   margin-left: auto;
   margin-right: auto;
+  
 }
 
-#about_us{
+#Login{
+	border: 1px solid limegreen;
+	box-sizing: border-box;
+}
+
+#featAndPrice{
   border: 2px solid black;
   margin-left: auto;
   margin-right: auto;
 }
 
-#products{
+#FAQ{
   border: 2px solid black;
   margin-left: auto;
   margin-right: auto;
 }
 
-#extra{
+#Contact{
   border: 2px solid black;
   margin-left: auto;
   margin-right: auto;
@@ -77,3 +108,4 @@ li a {
 li a:hover {
     color: limegreen;
 }
+
