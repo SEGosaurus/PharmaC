@@ -1,6 +1,8 @@
 @import 'https://fonts.googleapis.com/css?family=Open+Sans';
 
 
+/* Landing page Style Guide */
+
 #landingBlurb{
   margin: auto;
   width: 60%;
@@ -14,17 +16,14 @@
     padding: 10px;
 }
 
-
+/* End of landing page style guide */
 
 h1 {
 	color: white;
 	text-align: center;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif; /* Changes header one font to Open Sans */
 }
-/* Header */
-head{
-	font-family: 'Open Sans', sans-serif;
-}
+
 
 body {
 	background-color: black;
@@ -34,7 +33,7 @@ body {
 p {
 	color: white;
 	text-align: center;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif; /* Changes paragraph font to Open Sans */
 }
 
 #MenuBar{
@@ -43,7 +42,7 @@ p {
   background-color: limegreen;
   border:  2px solid #333;
   padding: 2px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif; /* Changes menu font to open sans */
 }
 
 #welcome{
@@ -53,24 +52,26 @@ p {
   
 }
 
+/*
 #Login{
 	border: 1px solid limegreen;
 	box-sizing: border-box;
 }
+*/
 
-#featAndPrice{
+#about_us{
   border: 2px solid black;
   margin-left: auto;
   margin-right: auto;
 }
 
-#FAQ{
+#products{
   border: 2px solid black;
   margin-left: auto;
   margin-right: auto;
 }
 
-#Contact{
+#extra{
   border: 2px solid black;
   margin-left: auto;
   margin-right: auto;
