@@ -8,5 +8,5 @@ Shahzaib Sahibzada 8719112
 Austin Tambakopoulos 8629068    
 
 Product name: PharmaC  
-Product description:
+Product description: Pharmacy app that reminds clients to pick up their medicine on time. Has weekly flyers, refills, can book appointments, etc.  
 
