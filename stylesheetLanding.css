@@ -3,13 +3,6 @@
 
 /* Landing page Style Guide */
 
-#landingBlurb{
-  margin: auto;
-  width: 60%;
-  padding: 10px;
-
-}
-
 .center {
     margin: auto;
     width: 60%;
@@ -26,7 +19,8 @@ h1 {
 
 
 body {
-	background-color: black;
+	background-color: #A3E7FC;
+	opacity: 50%;
 	margin: 0;
 }
 
