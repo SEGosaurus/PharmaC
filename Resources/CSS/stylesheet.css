@@ -36,6 +36,10 @@ p {
 	font-family: 'Open Sans', sans-serif; /* Changes paragraph font to Open Sans */
 }
 
+img{
+  border-radius: 5px;
+  border: 1px solid white;
+}
 iframe{
   display: block;
   float: top;
@@ -47,7 +51,7 @@ iframe{
 #MenuBar{
   position: fixed;
   width: 99.5%;
-  background-color: limegreen;
+  background-color: #EF476F;
   border:  2px solid #333;
   padding: 2px;
   font-family: 'Open Sans', sans-serif; /* Changes menu font to open sans */
@@ -120,13 +124,15 @@ li {
 
 li a {
     display: block;
-    color: grey;
+    color: #EF476F;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 li a:hover {
-    color: limegreen;
+    border: 1px solid #EF476F;
+    border-radius: 20px;
+    color: #EF476F;
 }
 

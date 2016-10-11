@@ -8,13 +8,17 @@ body{
 
 h1{
 	text-align: center;
-	color: #222E50;
+	color: white;
+	font-weight: bold;
+	text-shadow: 1px 2px black;
 }
 
 a{
 	color: white;
 	font-family: 'Open Sans', sans-serif;
 	text-decoration: none;
+	text-shadow: 1px 2px #EF476F;
+	font-weight: bold;
 }
 
 p{
@@ -23,7 +27,9 @@ p{
 }
 
 a:hover{
+	font-weight: bold;
 	color: #EF476F;
+	text-shadow: 1px 2px white;
 }
 
 video{
