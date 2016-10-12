@@ -21,19 +21,27 @@
 h1 {
 	color: white;
 	text-align: center;
+  text-shadow: 1px 2px black;
 	font-family: 'Open Sans', sans-serif; /* Changes header one font to Open Sans */
 }
 
 
 body {
 	background-color: #A3E7FC;
+  width: 100%
+  height: 100%;
 	margin: 0;
 }
 
 p {
 	color: white;
+  text-shadow: 1px 2px black;
 	text-align: center;
 	font-family: 'Open Sans', sans-serif; /* Changes paragraph font to Open Sans */
+}
+
+hr{
+  color: #048A81;
 }
 
 img{
@@ -52,49 +60,54 @@ iframe{
   position: fixed;
   width: 99.5%;
   background-color: #EF476F;
-  border:  2px solid #333;
+  border-radius: 8px;
+  border:  2px solid #048A81;
   padding: 2px;
   font-family: 'Open Sans', sans-serif; /* Changes menu font to open sans */
 }
 
 #welcome{
-  border: 2px solid black;
+  border: 2px solid #048A81;
+  border-radius: 8px;
   margin-left: auto;
   margin-right: auto;
   
 }
 
-/*
 #Login{
-	border: 1px solid limegreen;
-	box-sizing: border-box;
+	float: right;
+  color: white;
+  font-weight: bold;
 }
-*/
 
 #about_us{
-  border: 2px solid black;
+  border: 2px solid #048A81;
+  border-radius: 8px;
   margin-left: auto;
   margin-right: auto;
 }
 
 #products{
-  border: 2px solid black;
+  border: 2px solid #048A81;
   margin-left: auto;
+  border-radius: 8px;
   margin-right: auto;
 }
 
 #extra{
-  border: 2px solid black;
+  border: 2px solid #048A81;
+  border-radius: 8px;
   margin-left: auto;
   margin-right: auto;
 }
 
 #MainCont{
-  background-color: grey;
+  background-color: #A3E7FC;
+  border-radius: 8px;
   margin-left: auto;
   margin-right: auto;
   vertical-align: middle;
-  border:  2px solid #333;
+  border:  2px solid #EF476F;
   padding: 10px;
   height: auto;
   display: block;
@@ -110,12 +123,19 @@ iframe{
   display: block;
 }
 
+#MainHolder{
+  background-image: "Resources\images\OldPeople1.jpg";
+  border-radius: 8px;
+  border:  2px solid #EF476F;
+}
+
 ul {
     list-style-type: none;
-    margin: 0;
+    margin: 2px;
     padding: 0;
     overflow: hidden;
-    background-color: white;
+    border-radius: 8px;
+    background-color: #A3E7FC;
 }
 
 li {
@@ -124,15 +144,14 @@ li {
 
 li a {
     display: block;
-    color: #EF476F;
+    color: white;
+    text-shadow: 1px 2px black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 li a:hover {
-    border: 1px solid #EF476F;
-    border-radius: 20px;
     color: #EF476F;
+    text-shadow: none;
 }
-
