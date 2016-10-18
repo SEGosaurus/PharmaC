@@ -21,13 +21,6 @@
     font-weight: lighter;;
 }
 
-body {
-    margin:0;
-    padding:0;
-    font-family: vegur;
-    color: black;
-    background-color: #ffffff;
-}
 
 /*-----------NAVBAR------------*/
 .pc-navbar ul {
@@ -58,25 +51,17 @@ body {
 }
 /*-----------NAVBAR------------*/
 
-<<<<<<< HEAD
-
 
 body{
     margin: 0%;
     background-color: whitesmoke;
-    
-=======
-div{
-  margin: -1%;
-  padding-left: 20px;
->>>>>>> e60c2eda968c6be442c0b873030fd604d0119375
 }
+    
 
 #div1{
     margin-left:0%;
     margin-right:0%;
     
-
     padding-bottom: 25%;
     padding-top:25%;
     display: block;
@@ -90,7 +75,6 @@ div{
     font-weight: bold;
     font-size: 40px;
     padding-left:5%;
-    padding-bottom:
 }
 
 
