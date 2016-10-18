@@ -1,15 +1,36 @@
+body{
+    margin: 0%;
+    background-color: whitesmoke;
+    
+}
+
 #div1{
-  background-color: black;
-  margin: auto;
-  width: 100%;
-  padding: none;
+    margin-left:0%;
+    margin-right:0%;
+    
+
+    padding-bottom: 25%;
+    padding-top:25%;
+    display: block;
+    background-color: #262a33;
+  
 }
 
 #div1 h1 {
-  color: white;
+  color: whitesmoke;
   font-weight: bold;
 }
 
 #div2{
-  background-color: white;
+    background-color: whitesmoke;
+    
+    margin-left:0%;
+    margin-right:0%;
+    
+    padding-bottom:25%;
+    padding-top: 25%;
+}
+
+#div2 h1{
+    color:#262a33;    
 }
