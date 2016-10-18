@@ -29,12 +29,23 @@ body{
     background-color: #ffffff;
 }
 
+.pc-section {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 44px;
+    bottom: 0;
+    border-top: 30px solid #f2f2f2;
+    border-left: 50px solid #f2f2f2;
+    border-right: 50px solid #f2f2f2;
+}
+
 /*---------------------------
 
     OTHER STYLING
 
 ---------------------------*/
-/*------HEADER-------*/
+/*------NAVBAR-------*/
 .pc-navbar ul {
     list-style-type: none;
     margin: 0;
