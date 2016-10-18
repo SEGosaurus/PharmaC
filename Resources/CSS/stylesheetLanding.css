@@ -3,13 +3,6 @@
 
 /* Landing page Style Guide */
 
-#landingBlurb{
-  margin: auto;
-  width: 60%;
-  padding: 10px;
-
-}
-
 .center {
     margin: auto;
     width: 60%;
@@ -19,19 +12,28 @@
 /* End of landing page style guide */
 
 h1 {
-	color: white;
+	position: absolute;
+	padding: 50% 50%;
 	text-align: center;
 	font-family: 'Open Sans', sans-serif; /* Changes header one font to Open Sans */
+	font-size: 50;
+	color: white;
 }
+<<<<<<< HEAD:stylesheetLanding.css
 
 
+
+=======
+>>>>>>> 89c2a70a423d5909e0bb5d429559b1a0c5bb7571:Resources/CSS/stylesheetLanding.css
 body {
-	background-color: black;
+	background-color: #A3E7FC;
+	background-opacity: 10%;
 	margin: 0;
 }
 
 p {
 	color: white;
+	text-shadow: 2px 2px 4px #000000;
 	text-align: center;
 	font-family: 'Open Sans', sans-serif; /* Changes paragraph font to Open Sans */
 }
