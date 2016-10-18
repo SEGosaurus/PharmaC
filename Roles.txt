@@ -1,0 +1,4 @@
+Anthony: Main page
+Bijan: Landing and pricing pages
+Austin: Contact us and CSS Styling+Javascript
+Shahzaib: FAQ

@@ -1,0 +1,45 @@
+Colours
+==========
+The colour palette will be a blue-green styled scheme. Buttons emphasized with opposite, yet complimenting colour.
+
+Button Colours:
+f0a202
+ef476f
+
+Background Colours:
+048A81
+A3E7FC
+395E66
+222E50
+
+Overall Feel
+============
+
+The overall feel of the site should begin with a subtle and calm looking landing page. This will grab the users
+attention right off the bat and attract them with the minimalist look. The main button will then redirect them 
+to the home page which is a scrolling dynamic website page with brief summary sections of each page. This page is
+more content-filled.
+
+Iconography
+============
+The icons for the website will be a similar looking minimalist look, similar to that of any Google product.
+Icons can be taken from several icon archive's online.
+
+Typography
+============
+As the primary font, we will be using Open Sans. Title's may vary (different title fonts)
+
+Links
+============
+Links change colour, and do not have underlines (they are not modern). Their colour will be a tint of the page's most
+predominant colour.
+
+Buttons
+============
+Buttons will use complimentary and non-contrasting colours for regular buttons, but they will use the emphasized colours
+for majority of the buttons on the website.
+
+EMPHASIZED BUTTON COLOURS:
+f0a202
+ef476f
+
