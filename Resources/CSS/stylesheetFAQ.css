@@ -1,117 +1,136 @@
+/* Table of Contents
+- KEY STYLING
+    - FONTS
+    - PAGE
+    - NAVBAR
+- OTHER STYLING
+    - MODULE
+*/
+
 /*---------------------------
 
     KEY STYLING
 
 ---------------------------*/
+
+/*------FONTS-------*/
 @font-face {
     font-family: vegur;
-    src: url(arro_vegur/Vegur-Regular.otf);
     font-weight: normal;
+    src: url(arro_vegur/Vegur-Regular.otf);
 }
 
 @font-face {
     font-family: vegurBold;
-    src: url(arro_vegur/Vegur-Bold.otf);
     font-weight: bold;
+    src: url(arro_vegur/Vegur-Bold.otf);
 }
 
 @font-face {
     font-family: vegurLight;
+    font-weight: lighter;
     src: url(arro_vegur/Vegur-Light.otf);
-    font-weight: lighter;;
 }
 
 strong {
     font-family: vegurBold;
 }
+/*------------------*/
 
+/*-------PAGE-------*/
 body{
+    background-color: #313d4d;
+    color: white;
+    font-family: vegur;
     margin:0;
     padding:0;
-    font-family: vegur;
-    color: white;
-    background-color: #313d4d;
 }
+/*------------------*/
 
-.pc-section {
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 44px;
-    bottom: 0;
-    border-left: 70px solid #262a33;
-    border-right: 70px solid #262a33;
-}
-
-/*---------------------------
-
-    OTHER STYLING
-
----------------------------*/
-/*------NAVBAR-------*/
-.pc-navbar ul {
+/*------NAVBAR------*/
+.navbar ul {
+    background-color: #414449;
     list-style-type: none;
     margin: 0;
-    padding: 12.5px;
     overflow: hidden;
-    background-color: #414449;
+    padding: 12.5px;
 }
 
-.pc-navbar li {
+.navbar li {
     float: left;
 }
 
-.pc-navbar li a{
-    font-family: vegurLight;
+.navbar li a{
     color: #EEEEEE;
+    font-family: vegurLight;
     padding: 50px;
     text-decoration: none;
 }
 
-.pc-navbar li a:hover:not(#active) {
+.navbar li a:hover:not(#active) {
     background-color: #111;
 }
 
 #active {
     color: #a8a8a8;
 }
-
 /*-------------------*/
-.pc-section h1,h2 {
-    margin-top: 20px;
-    margin-bottom: 0px;
+
+/*---------------------------
+
+    OTHER STYLING
+
+---------------------------*/
+
+/*-------MODULE------*/
+.module-1 {
+    border-left: 70px solid #262a33;
+    border-right: 70px solid #262a33;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 44px;
+}
+
+.module-1 header {
+    margin: 20px 0px 20px 0px;
+}
+
+.module-1 header h1,h2 {
+    margin: 20px 0px 20px 0px;
     text-align: center;
 }
 
-.pc-section h1 {
+.module-1 header h1 {
+    font-family: vegurLight;
     font-size: 70px;
-    font-family: vegurLight;
 }
 
-.pc-section h2 {
+.module-1 header h2 {
+    color: #878787;
     font-size: 20px;
-    color: white;
 }
 
-.pc-container {
-    padding-left: 100px;
+.module-1 .contents {
+    margin-left: 100px;
 }
 
-.pc-question h3 {
-    padding: 10px 0px 10px 15px;
-    width: 800px;
-    font-family: vegurLight;
-    color: #ffffff;
+.module-1 .contents .question h3 {
     background-color: #4A505E;
     border-radius: 25px;
+    font-family: vegurLight;
+    padding: 10px 0px 10px 15px;
+    width: 800px;
 }
 
-.pc-answer {
+.module-1 .contents .answer {
     display: none;
-    padding: 15px;
+    padding: 0px 0px 15px 15px;
 }
 
-.pc-answer p{
-    padding: 0;
+.module-1 .contents .answer p {
     margin: 0;
+    padding: 0;
 }
+/*-------------------*/
