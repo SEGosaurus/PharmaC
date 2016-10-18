@@ -95,23 +95,56 @@ p {
   overflow: hidden;
 }
 
-#MenuBar{
+/*#MenuBar{
   position: fixed;
   width: 99.5%;
   background-color: grey;
   border:  2px solid black;
   padding: 1px;
-  font-family: 'Open Sans', sans-serif; /* Changes menu font to open sans */
+  font-family: 'Open Sans', sans-serif; /* Changes menu font to open sans
+}*/
+
+
+
+/*-----------NAVBAR------------*/
+.MenuBar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 16px;
+    overflow: hidden;
+    background-color: #333333;
 }
+
+.MenuBar li {
+    float: left;
+}
+
+.MenuBar li a{
+    font-family: vegurLight;
+    color: #FFFFFF;
+    padding: 40px;
+    text-decoration: none;
+}
+
+.MenuBar li a:hover:not(#active) {
+    background-color: #111;
+}
+
+#active {
+    background-color: #e75a7c;
+}
+/*-----------NAVBAR------------*/
+
+
 
 #welcome{
   border: 2px solid black;
   border-radius: 4px;
   margin-left: auto;
   margin-right: auto;
-  
-}
 
+}
+/*
 #Login{
 	float: right;
   color: white;
@@ -131,7 +164,7 @@ p {
   margin-left: auto;
   border-radius: 4px;
   margin-right: auto;
-}
+}*/
 
 #extra{
   border: 2px solid black;
@@ -151,7 +184,7 @@ p {
   display: block;
 }
 
-#contact{ 
+#contact{
   position: absolute;
   border: 2px solid black;
   font-family: 'Open Sans', sans-serif;
@@ -167,7 +200,7 @@ p {
   border:  2px solid black;
 }
 
-ul{
+/*ul{
   list-style-type: circle;
   color: white;
   text-shadow: 1px 1px #395E66;
@@ -199,7 +232,7 @@ ol li a:hover {
     color: #EF476F;
     background-color: grey;
     text-shadow: none;
-}
+}*/
 
 #member{
   margin:auto;
