@@ -3,12 +3,21 @@
     <head>
         <link rel="stylesheet" type="text/css" href="../CSS/stylesheetFAQ.css"/>
 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $(".pc-question").click(function(){
+                    $(this).next(".pc-answer").slideToggle("fast");
+                });
+            });
+        </script>
+
         <title>FAQ</title>
 	</head>
     <body>
         <header class="pc-navbar">
             <ul>
-                <li><a href="">Home</a></li>
+                <li><a href="../../index.htm">Home</a></li>
                 <li><a href="faq.html" id="active">FAQ</a></li>
                 <li><a href="../../about_us.html">Our Team</a></li>
             </ul>
@@ -17,12 +26,24 @@
         <main>
             <section class="pc-section">
                 <h1>Frequently Asked Questions</h1>
+                <h2>Click on a question to expand the response</h2>
                 <div class="pc-container">
-                    <h3>1. What is <strong>PharmaC?</strong></h3>
-                    <h3>2. What platforms is <strong>PharmaC</strong> available on?</h3>
-                    <h3>3. </h3>
-                    <h3>4. </h3>
-                    <h3>5. </h3>
+                    <div class="pc-question">
+                        <h3>1. What is <strong>PharmaC?</strong></h3>
+                    </div> <!--pc-question-->
+
+                    <div class="pc-answer">
+                        <p>It is a wonderful app. Which can do so many things.</p>
+                    </div> <!--pc-answer-->
+
+                    <div class ="pc-question">
+                        <h3>2. What platforms is <strong>PharmaC</strong> available on?</h3>
+                    </div> <!--pc-question-->
+
+                    <div class="pc-answer">
+                        <p>There will be a mobile app and a desktop version!</p>
+                    </div> <!--pc-answer-->
+
                 </div> <!--pc-container-->
             </section> <!--pc-section-->
         </main>

@@ -21,12 +21,16 @@
     font-weight: lighter;;
 }
 
+strong {
+    font-family: vegurBold;
+}
+
 body{
     margin:0;
     padding:0;
     font-family: vegur;
-    color: black;
-    background-color: #ffffff;
+    color: white;
+    background-color: #313d4d;
 }
 
 .pc-section {
@@ -35,9 +39,8 @@ body{
     right: 0;
     top: 44px;
     bottom: 0;
-    border-top: 30px solid #f2f2f2;
-    border-left: 50px solid #f2f2f2;
-    border-right: 50px solid #f2f2f2;
+    border-left: 70px solid #262a33;
+    border-right: 70px solid #262a33;
 }
 
 /*---------------------------
@@ -51,7 +54,7 @@ body{
     margin: 0;
     padding: 12.5px;
     overflow: hidden;
-    background-color: #333333;
+    background-color: #414449;
 }
 
 .pc-navbar li {
@@ -74,28 +77,41 @@ body{
 }
 
 /*-------------------*/
-.pc-section h1 {
+.pc-section h1,h2 {
     margin-top: 20px;
     margin-bottom: 0px;
     text-align: center;
-	color: black;
-    font-family: vegurLight;
+}
+
+.pc-section h1 {
     font-size: 70px;
+    font-family: vegurLight;
+}
+
+.pc-section h2 {
+    font-size: 20px;
+    color: white;
 }
 
 .pc-container {
     padding-left: 100px;
 }
 
-.pc-container h3 {
-    padding: 15px;
+.pc-question h3 {
+    padding: 10px 0px 10px 15px;
     width: 800px;
     font-family: vegurLight;
-    color: #EEEEEE;
-    background-color: #333333;
+    color: #ffffff;
+    background-color: #4A505E;
     border-radius: 25px;
 }
 
-.pc-container strong {
-    font-family: vegurBold;
+.pc-answer {
+    display: none;
+    padding: 15px;
+}
+
+.pc-answer p{
+    padding: 0;
+    margin: 0;
 }
