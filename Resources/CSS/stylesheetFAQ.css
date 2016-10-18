@@ -133,4 +133,9 @@ body{
     margin: 0;
     padding: 0;
 }
+
+.module-1 .contents a {
+    color: #84aced;
+    text-decoration: none;
+}
 /*-------------------*/
