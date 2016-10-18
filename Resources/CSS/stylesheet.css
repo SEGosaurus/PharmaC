@@ -1,43 +1,62 @@
+/*---------------------------
 
-/*-----------NAVBAR------------*/
+    KEY STYLING
 
-#MenuBar{
-  margin-left: -2%;
+---------------------------*/
+@font-face {
+    font-family: vegur;
+    src: url(arro_vegur/Vegur-Regular.otf);
+    font-weight: normal;
 }
 
-#MenuBar ul {
+@font-face {
+    font-family: vegurBold;
+    src: url(arro_vegur/Vegur-Bold.otf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: vegurLight;
+    src: url(arro_vegur/Vegur-Light.otf);
+    font-weight: lighter;;
+}
+
+body {
+    margin:0;
+    padding:0;
+    font-family: vegur;
+    color: black;
+    background-color: #ffffff;
+}
+
+/*-----------NAVBAR------------*/
+.pc-navbar ul {
     list-style-type: none;
     margin: 0;
-    padding: 16px;
+    padding: 12.5px;
     overflow: hidden;
     background-color: #333333;
 }
 
-#MenuBar li {
+.pc-navbar li {
     float: left;
 }
 
-#MenuBar li a{
+.pc-navbar li a{
     font-family: vegurLight;
-    color: #FFFFFF;
-    padding: 40px;
+    color: #EEEEEE;
+    padding: 50px;
     text-decoration: none;
 }
 
-#MenuBar li a:hover:not(#active) {
+.pc-navbar li a:hover:not(#active) {
     background-color: #111;
 }
 
 #active {
-    background-color: #e75a7c;
+    background-color: #E75A7C;
 }
 /*-----------NAVBAR------------*/
-
-
-
-body{
-  margin: none;
-}
 
 div{
   margin: -1%;
