@@ -17,19 +17,19 @@
 @font-face {
     font-family: vegur;
     font-weight: normal;
-    src: url(arro_vegur/Vegur-Regular.otf);
+    src: url(Resources/CSS/arro_vegur/Vegur-Regular.otf);
 }
 
 @font-face {
     font-family: vegurBold;
     font-weight: bold;
-    src: url(arro_vegur/Vegur-Bold.otf);
+    src: url(Resources/CSS/arro_vegur/Vegur-Bold.otf);
 }
 
 @font-face {
     font-family: vegurLight;
     font-weight: lighter;
-    src: url(arro_vegur/Vegur-Light.otf);
+    src: url(Resources/CSS/arro_vegur/Vegur-Light.otf);
 }
 
 strong {
