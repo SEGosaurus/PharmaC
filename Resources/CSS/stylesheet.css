@@ -1,229 +1,59 @@
-@font-face {
-    font-family: vegur;
-    src: url(arro_vegur/Vegur-Regular.otf);
-    font-weight: normal;
-}
 
-@font-face {
-    font-family: vegurBold;
-    src: url(arro_vegur/Vegur-Bold.otf);
-    font-weight: bold;
-}
-
-@font-face {
-    font-family: vegurLight;
-    src: url(arro_vegur/Vegur-Light.otf);
-    font-weight: lighter;;
-}
-
-body {
-    margin:0;
-    padding:0;
-    font-family: vegur;
-    color: black;
-    background-color: black;
-}
-
-img {
-    border-radius: 8px;
-    float: center;
-    display: block;
-    margin: auto;
-}
-
-
-/* Landing page Style Guide */
-
-#landingBlurb{
-  margin: auto;
-  width: 60%;
-  padding: 10px;
-
-}
-
-.center {
-    margin: auto;
-    width: 60%;
-    padding: 10px;
-}
-
-/* End of landing page style guide */
-
-h1 {
-	color: black;
-  font-size: 34px;
-	text-align: center;
-  text-shadow: 1px 2px lightgrey;
-	font-family: 'Vegur-Regular'; /* Changes header one font to Open Sans */
-}
-
-h2 {
-  color: white;
-  text-align: left;
-  text-shadow: 1px 2px #395E66;
-  font-family: 'Open Sans', sans-serif; /* Changes header one font to Open Sans */
-}
-
-body {
-  width: 100%
-  height: 100%;
-	margin: 0;
-}
-
-p {
-	color: black;
-  text-shadow: 1px 1px lightgrey;
-	text-align: center;
-	font-family: 'Open Sans', sans-serif; /* Changes paragraph font to Open Sans */
-}
-
-.p1 {
-  color: black;
-  text-shadow: 1px 1px lightgrey;
-  text-align: left;
-  border: 1px solid black;
-  padding: 10px;
-}
-
-#frame{
-  margin: auto;
-  display: block;
-  vertical-align: center;
-  width: 80%;
-  border:  2px solid black;
-  border-radius: 4px;
-  overflow: hidden;
-}
+/*-----------NAVBAR------------*/
 
 #MenuBar{
-  position: fixed;
-  width: 99.5%;
-  background-color: grey;
-  border:  2px solid black;
-  padding: 1px;
-  font-family: 'Open Sans', sans-serif; /* Changes menu font to open sans */
+  margin-left: -2%;
 }
 
-#welcome{
-  border: 2px solid black;
-  border-radius: 4px;
-  margin-left: auto;
-  margin-right: auto;
-  
-}
-
-#Login{
-	float: right;
-  color: white;
-  font-weight: bold;
-  padding-right: 15px;
-}
-
-#about_us{
-  border: 2px solid black;
-  border-radius: 4px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#products{
-  border: 2px solid black;
-  margin-left: auto;
-  border-radius: 4px;
-  margin-right: auto;
-}
-
-#extra{
-  border: 2px solid black;
-  border-radius: 4px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#MainCont{
-  border-radius: 4px;
-  margin-left: auto;
-  margin-right: auto;
-  vertical-align: middle;
-  /*border:  2px solid #EF476F;*/
-  padding: 10px;
-  height: auto;
-  display: block;
-}
-
-#contact{ 
-  position: absolute;
-  border: 2px solid black;
-  font-family: 'Open Sans', sans-serif;
-  margin-right: auto;
-  margin-left: auto;
-  padding: 10px;
-  display: block;
-}
-
-#MainHolder{
-  border-radius: 4px;
-  background-color: white;
-  border:  2px solid black;
-}
-
-ul{
-  list-style-type: circle;
-  color: white;
-  text-shadow: 1px 1px #395E66;
-}
-
-ol {
+#MenuBar ul {
     list-style-type: none;
-    margin: 2px;
-    padding: 0;
+    margin: 0;
+    padding: 16px;
     overflow: hidden;
-    border-radius: 4px;
-    background-color: lightgrey;
+    background-color: #333333;
 }
 
-ol li {
+#MenuBar li {
     float: left;
 }
 
-ol li a {
-    display: block;
-    color: white;
-    text-shadow: 1px 1px #395E66;
-    text-align: center;
-    padding: 14px 16px;
+#MenuBar li a{
+    font-family: vegurLight;
+    color: #FFFFFF;
+    padding: 40px;
     text-decoration: none;
 }
 
-ol li a:hover {
-    color: #EF476F;
-    background-color: grey;
-    text-shadow: none;
+#MenuBar li a:hover:not(#active) {
+    background-color: #111;
 }
 
-#member{
-  margin:auto;
-  float: center;
+#active {
+    background-color: #e75a7c;
+}
+/*-----------NAVBAR------------*/
+
+
+
+body{
+  margin: none;
 }
 
-.pc-member {
-    margin: auto;
-    float: left;
-    width: 49%;
-    padding: 4px;
+div{
+  margin: -1%;
+  padding-left: 20px;
 }
 
-.pc-member h3 h4 p {
-    color: black;
+#div1{
+  background-color: black;
 }
 
-.pc-member h3 {
-    font-family: vegurLight;
-    font-size: 30px;
-    margin-top: -30px;
+#div1 h1 {
+  color: white;
+  font-weight: bold;
 }
 
-.pc-member h4 {
-    font-family: vegurBold;
-    font-size: 25px;
+#div2{
+  background-color: white;
+  width: 100%;
 }
