@@ -114,6 +114,7 @@ body{
 
 .module-1 .contents {
     margin-left: 100px;
+    width: 800px;
 }
 
 .module-1 .contents .question h3 {
@@ -121,7 +122,6 @@ body{
     border-radius: 25px;
     font-family: vegurLight;
     padding: 10px 0px 10px 15px;
-    width: 800px;
 }
 
 .module-1 .contents .answer {
