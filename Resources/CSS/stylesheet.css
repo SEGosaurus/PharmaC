@@ -58,16 +58,18 @@ hr{
 }
 
 img{
+  float: right;
   border-radius: 5px;
   border: 1px solid white;
 }
-iframe{
-  display: block;
-  float: top;
-  border: none;
-  width: 100%;
-  height: auto;
+
+#frame{
+  float: right;
+  background-color: #EF476F;
+  border:  2px solid #EF476F;
+  border-radius: 8px;
   overflow: hidden;
+  margin-right: 10px;
 }
 
 #MenuBar{
