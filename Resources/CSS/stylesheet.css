@@ -25,6 +25,12 @@ h1 {
 	font-family: 'Open Sans', sans-serif; /* Changes header one font to Open Sans */
 }
 
+h2 {
+  color: white;
+  text-align: left;
+  text-shadow: 1px 2px #395E66;
+  font-family: 'Open Sans', sans-serif; /* Changes header one font to Open Sans */
+}
 
 body {
 	background-color: #A3E7FC;
@@ -40,21 +46,30 @@ p {
 	font-family: 'Open Sans', sans-serif; /* Changes paragraph font to Open Sans */
 }
 
+.p1 {
+  color: white;
+  text-shadow: 1px 1px #395E66;
+  text-align: left;
+  font-family: 'Open Sans', sans-serif; /* Changes paragraph font to Open Sans */
+}
+
 hr{
   color: #048A81;
 }
 
 img{
+  float: right;
   border-radius: 5px;
   border: 1px solid white;
 }
-iframe{
-  display: block;
-  float: top;
-  border: none;
-  width: 100%;
-  height: auto;
+
+#frame{
+  float: right;
+  background-color: #EF476F;
+  border:  2px solid #EF476F;
+  border-radius: 8px;
   overflow: hidden;
+  margin-right: 10px;
 }
 
 #MenuBar{
@@ -132,7 +147,13 @@ iframe{
   border:  2px solid #EF476F;
 }
 
-ul {
+ul{
+  list-style-type: circle;
+  color: white;
+  text-shadow: 1px 1px #395E66;
+}
+
+ol {
     list-style-type: none;
     margin: 2px;
     padding: 0;
@@ -141,11 +162,11 @@ ul {
     background-color: #A3E7FC;
 }
 
-li {
+ol li {
     float: left;
 }
 
-li a {
+ol li a {
     display: block;
     color: white;
     text-shadow: 1px 1px #395E66;
@@ -154,7 +175,35 @@ li a {
     text-decoration: none;
 }
 
-li a:hover {
+ol li a:hover {
     color: #EF476F;
     text-shadow: none;
+}
+
+#Anthony{
+  border:  2px solid #EF476F;
+  padding: 10px;
+  width: 30%;
+  border-radius: 8px;
+}
+
+#Bijan{
+  border:  2px solid #EF476F;
+  padding: 10px;
+  width: 30%;
+  border-radius: 8px;
+}
+
+#Austin{
+  border:  2px solid #EF476F;
+  padding: 10px;
+  width: 30%;
+  border-radius: 8px;
+}
+
+#Shahzaib{
+  border:  2px solid #EF476F;
+  padding: 10px;
+  width: 30%;
+  border-radius: 8px;
 }
