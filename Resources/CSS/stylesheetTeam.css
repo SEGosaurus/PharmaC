@@ -31,6 +31,9 @@ body {
 
 img {
     border-radius: 8px;
+    float: center;
+    display: block;
+    margin: auto;
 }
 
 /*---------------------------
@@ -49,6 +52,14 @@ img {
 
 .pc-navbar li {
     float: left;
+}
+
+h1 {
+    color: black;
+  font-size: 34px;
+    text-align: center;
+  text-shadow: 1px 2px lightgrey;
+    font-family: 'Vegur-Regular'; /* Changes header one font to Open Sans */
 }
 
 .pc-navbar li a{
@@ -74,6 +85,30 @@ img {
 	color: black;
     font-family: vegurLight;
     font-size: 70px;
+}
+
+#member{
+  margin:auto;
+  float: center;
+}
+
+#frame{
+  margin: auto;
+  display: block;
+  vertical-align: center;
+  width: 80%;
+  border:  2px solid black;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.p1 {
+  color: white;
+  border-radius: 4px;
+  background-color: black;
+  text-align: left;
+  border: 1px solid black;
+  padding: 10px;
 }
 
 .pc-container {
