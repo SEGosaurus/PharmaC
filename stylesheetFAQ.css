@@ -17,19 +17,19 @@
 @font-face {
     font-family: vegur;
     font-weight: normal;
-    src: url(arro_vegur/Vegur-Regular.otf);
+    src: url(Resources/CSS/arro_vegur/Vegur-Regular.otf);
 }
 
 @font-face {
     font-family: vegurBold;
     font-weight: bold;
-    src: url(arro_vegur/Vegur-Bold.otf);
+    src: url(Resources/CSS/arro_vegur/Vegur-Bold.otf);
 }
 
 @font-face {
     font-family: vegurLight;
     font-weight: lighter;
-    src: url(arro_vegur/Vegur-Light.otf);
+    src: url(Resources/CSS/arro_vegur/Vegur-Light.otf);
 }
 
 strong {
@@ -114,6 +114,7 @@ body{
 
 .module-1 .contents {
     margin-left: 100px;
+    width: 800px;
 }
 
 .module-1 .contents .question h3 {
@@ -121,7 +122,6 @@ body{
     border-radius: 25px;
     font-family: vegurLight;
     padding: 10px 0px 10px 15px;
-    width: 800px;
 }
 
 .module-1 .contents .answer {
@@ -132,5 +132,10 @@ body{
 .module-1 .contents .answer p {
     margin: 0;
     padding: 0;
+}
+
+.module-1 .contents a {
+    color: #84aced;
+    text-decoration: none;
 }
 /*-------------------*/
