@@ -62,6 +62,18 @@ h1 {
     font-family: 'Vegur-Regular'; /* Changes header one font to Open Sans */
 }
 
+
+#frame{
+  margin: auto;
+  display: block;
+  vertical-align: center;
+  width: 80%;
+  border:  2px solid black;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+
 .pc-navbar li a{
     font-family: vegurLight;
     color: #EEEEEE;

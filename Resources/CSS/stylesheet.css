@@ -1,3 +1,40 @@
+
+/*-----------NAVBAR------------*/
+
+#MenuBar{
+  margin-left: -2%;
+}
+
+#MenuBar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 16px;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+#MenuBar li {
+    float: left;
+}
+
+#MenuBar li a{
+    font-family: vegurLight;
+    color: #FFFFFF;
+    padding: 40px;
+    text-decoration: none;
+}
+
+#MenuBar li a:hover:not(#active) {
+    background-color: #111;
+}
+
+#active {
+    background-color: #e75a7c;
+}
+/*-----------NAVBAR------------*/
+
+
+
 body{
     margin: 0%;
     background-color: whitesmoke;
@@ -14,14 +51,26 @@ body{
     display: block;
     background-color: #262a33;
   
+
 }
 
 #div1 h1 {
-  color: whitesmoke;
-  font-weight: bold;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 40px;
+    padding-left:5%;
+    padding-bottom:
+}
+
+
+#div1 p1{
+    color:whitesmoke;
+    font-size:25px;
+    padding-left:10%
 }
 
 #div2{
+<<<<<<< HEAD
     background-color: whitesmoke;
     
     margin-left:0%;
@@ -34,3 +83,8 @@ body{
 #div2 h1{
     color:#262a33;    
 }
+=======
+  background-color: white;
+  width: 100%;
+}
+>>>>>>> 58ede159a159fecc4c0ce9d445fb4ed43dc0380f
