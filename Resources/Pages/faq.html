@@ -6,8 +6,8 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script>
             $(document).ready(function(){
-                $(".pc-question").click(function(){
-                    $(this).next(".pc-answer").slideToggle("fast");
+                $(".question").click(function(){
+                    $(this).next(".answer").slideToggle("fast");
                 });
             });
         </script>
@@ -15,37 +15,38 @@
         <title>FAQ</title>
 	</head>
     <body>
-        <header class="pc-navbar">
+        <header class="navbar">
             <ul>
                 <li><a href="../../index.htm">Home</a></li>
                 <li><a href="faq.html" id="active">FAQ</a></li>
                 <li><a href="../../about_us.html">Our Team</a></li>
             </ul>
-        </header> <!--pc-navbar-->
+        </header> <!-- navbar -->
 
-        <main>
-            <section class="pc-section">
-                <h1>Frequently Asked Questions</h1>
-                <h2>Click on a question to expand the response</h2>
-                <div class="pc-container">
-                    <div class="pc-question">
+        <main class="page">
+            <section class="module-1">
+                <header>
+                    <h1>Frequently Asked Questions</h1>
+                    <h2>Click on a question to expand the response</h2>
+                </header>
+                <div class="contents">
+                    <div class="question">
                         <h3>1. What is <strong>PharmaC?</strong></h3>
-                    </div> <!--pc-question-->
+                    </div> <!-- question -->
 
-                    <div class="pc-answer">
+                    <div class="answer">
                         <p>It is a wonderful app. Which can do so many things.</p>
-                    </div> <!--pc-answer-->
+                    </div> <!-- answer -->
 
-                    <div class ="pc-question">
+                    <div class ="question">
                         <h3>2. What platforms is <strong>PharmaC</strong> available on?</h3>
-                    </div> <!--pc-question-->
+                    </div> <!-- question -->
 
-                    <div class="pc-answer">
+                    <div class="answer">
                         <p>There will be a mobile app and a desktop version!</p>
-                    </div> <!--pc-answer-->
-
-                </div> <!--pc-container-->
-            </section> <!--pc-section-->
-        </main>
+                    </div> <!-- answer -->
+                </div> <!-- contents -->
+            </section> <!-- module-1 -->
+        </main> <!-- page -->
 	</body>
 </html>
