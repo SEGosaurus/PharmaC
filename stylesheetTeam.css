@@ -1,7 +1,5 @@
 /*---------------------------
-
-    KEY STYLING
-
+    FONT
 ---------------------------*/
 @font-face {
     font-family: vegur;
@@ -129,15 +127,6 @@ p{
 .pc-container {
   padding-left: 100px;
 }
-
-/*.pc-container ul{
-    list-style-type: none;
-}
-
-.pc-container ul li{
-    float: left;
-    width: 50%;
-}*/
 
 .pc-member {
   border-radius: 4px;
