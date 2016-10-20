@@ -5,7 +5,7 @@
 ---------------------------*/
 @font-face {
     font-family: vegur;
-    src: url(arro_vegur/Vegur-Regular.otf);
+    src: url(Resources/CSS/arro_vegur/Vegur-Regular.otf);
     font-weight: normal;
 }
 
@@ -17,7 +17,7 @@
 
 @font-face {
     font-family: vegurLight;
-    src: url(arro_vegur/Vegur-Light.otf);
+    src: url(Resources/CSS/arro_vegur/Vegur-Light.otf);
     font-weight: lighter;;
 }
 
@@ -26,9 +26,14 @@
 .pc-navbar ul {
     list-style-type: none;
     margin: 0;
-    padding: 12.5px;
+    padding-top: 20px;
+    padding-bottom:20px;
+    
+    width:100%; 
     overflow: hidden;
     background-color: #333333;
+    
+    position:fixed;
 }
 
 .pc-navbar li {
@@ -36,7 +41,8 @@
 }
 
 .pc-navbar li a{
-    font-family: vegurLight;
+    font-family: vegur;
+    font-size:1.25em;
     color: #EEEEEE;
     padding: 50px;
     text-decoration: none;
@@ -62,44 +68,80 @@ body{
     margin-left:0%;
     margin-right:0%;
     
-    padding-bottom: 25%;
+    padding-bottom: 15%;
     padding-top:25%;
     display: block;
-    background-color: #262a33;
+    background-color: #313d4d;
   
 
 }
 
 #div1 h1 {
+    font-family:vegur;
     color: whitesmoke;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 64px;
     padding-left:5%;
 }
 
 
 #div1 p1{
     color:whitesmoke;
-    font-size:25px;
-    padding-left:10%
+    font-size:35px;
+    padding-left:10%;
+    font-family: vegur;
 }
 
 #div2{
-<<<<<<< HEAD
     background-color: whitesmoke;
+    color:#313d4d;
     
     margin-left:0%;
     margin-right:0%;
     
-    padding-bottom:25%;
+    padding-bottom:15%;
     padding-top: 25%;
+    
+    font-family: vegur;
 }
 
 #div2 h1{
-    color:#262a33;    
+    font-size: 64px;
+    
+    padding-left:5%;
 }
-=======
-  background-color: white;
-  width: 100%;
+
+#div2 p1{
+    font-size:35px;
+    
+    position: absolute;
+    padding-left: 10%;
 }
+
+#div2 a{
+    margin:auto;
+    
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-left:60px;
+    padding-right:60px;
+    
+    
+    position:absolute;
+    left:75%;
+    top:187%;
+    
+    color:whitesmoke;
+    background-color: #313d4d;
+    
+    font-size:30px;
+    
+    
+    
+}
+
+a{
+        text-decoration: none;
+}
+
 >>>>>>> 58ede159a159fecc4c0ce9d445fb4ed43dc0380f
