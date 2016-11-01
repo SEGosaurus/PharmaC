@@ -118,7 +118,32 @@ body{
     padding-left: 10%;
 }
 
-#div2 a{
+#div3{
+    margin-left:0%;
+    margin-right:0%;
+    
+    padding-bottom: 15%;
+    padding-top:25%;
+    display: block;
+    background-color: #313d4d;
+}
+
+#div3 h1{
+    font-family:vegur;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 64px;
+    padding-left:5%;
+}
+
+#div3 p1{
+    color:whitesmoke;
+    font-size:35px;
+    padding-left:10%;
+    font-family: vegur;
+}
+
+#div4 a{
     margin:auto;
     
     padding-top:20px;
@@ -129,7 +154,7 @@ body{
     
     position:absolute;
     left:75%;
-    top:187%;
+    top:387%;
     
     color:whitesmoke;
     background-color: #313d4d;
