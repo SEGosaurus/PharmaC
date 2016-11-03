@@ -1,0 +1,172 @@
+/*---------------------------
+
+    KEY STYLING
+
+---------------------------*/
+@font-face {
+    font-family: vegur;
+    src: url(Resources/CSS/arro_vegur/Vegur-Regular.otf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: vegurBold;
+    src: url(arro_vegur/Vegur-Bold.otf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: vegurLight;
+    src: url(Resources/CSS/arro_vegur/Vegur-Light.otf);
+    font-weight: lighter;;
+}
+
+
+/*-----------NAVBAR------------*/
+.pc-navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom:20px;
+    
+    width:100%; 
+    overflow: hidden;
+    background-color: #333333;
+    
+    position:fixed;
+}
+
+.pc-navbar li {
+    float: left;
+}
+
+.pc-navbar li a{
+    font-family: vegur;
+    font-size:1.25em;
+    color: #EEEEEE;
+    padding: 50px;
+    text-decoration: none;
+}
+
+.pc-navbar li a:hover:not(#active) {
+    background-color: #111;
+}
+
+#active {
+    background-color: #E75A7C;
+}
+/*-----------NAVBAR------------*/
+
+
+body{
+    margin: 0%;
+    background-color: whitesmoke;
+}
+    
+
+#div1{
+    margin-left:0%;
+    margin-right:0%;
+    
+    padding-bottom: 15%;
+    padding-top:25%;
+    display: block;
+    background-color: #313d4d;
+  
+
+}
+
+#div1 h1 {
+    font-family:vegur;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 64px;
+    padding-left:5%;
+}
+
+
+#div1 p1{
+    color:whitesmoke;
+    font-size:35px;
+    padding-left:10%;
+    font-family: vegur;
+}
+
+#div2{
+    background-color: whitesmoke;
+    color:#313d4d;
+    
+    margin-left:0%;
+    margin-right:0%;
+    
+    padding-bottom:15%;
+    padding-top: 25%;
+    
+    font-family: vegur;
+}
+
+#div2 h1{
+    font-size: 64px;
+    
+    padding-left:5%;
+}
+
+#div2 p1{
+    font-size:35px;
+    
+    position: absolute;
+    padding-left: 10%;
+}
+
+#div3{
+    margin-left:0%;
+    margin-right:0%;
+    
+    padding-bottom: 15%;
+    padding-top:25%;
+    display: block;
+    background-color: #313d4d;
+}
+
+#div3 h1{
+    font-family:vegur;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 64px;
+    padding-left:5%;
+}
+
+#div3 p1{
+    color:whitesmoke;
+    font-size:35px;
+    padding-left:10%;
+    font-family: vegur;
+}
+
+#div4 a{
+    margin:auto;
+    
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-left:60px;
+    padding-right:60px;
+    
+    
+    position:absolute;
+    left:75%;
+    top:387%;
+    
+    color:whitesmoke;
+    background-color: #313d4d;
+    
+    font-size:30px;
+    
+    
+    
+}
+
+a{
+        text-decoration: none;
+}
+
+>>>>>>> 58ede159a159fecc4c0ce9d445fb4ed43dc0380f

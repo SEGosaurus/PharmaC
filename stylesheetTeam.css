@@ -1,7 +1,5 @@
 /*---------------------------
-
-    KEY STYLING
-
+    FONT
 ---------------------------*/
 @font-face {
     font-family: vegur;
@@ -21,45 +19,29 @@
     font-weight: lighter;;
 }
 
-body {
-    margin:0;
-    padding:0;
-    font-family: vegur;
-    color: black;
-    background-color: #ffffff;
+.a1 {
+  font-weight: bold;
+  text-decoration: none;
+  color: #EF476F;
+  font-family: 'Vegur-Bold';
+  text-shadow: 1px 1px pink;
 }
 
-img {
-    border-radius: 8px;
-    float: center;
-    display: block;
-    margin: auto;
+.a1:hover{
+   text-shadow: 1px 1px black;
 }
 
-/*---------------------------
-
-    OTHER STYLING
-
----------------------------*/
-/*------HEADER-------*/
+/*------------NAVBAR----------------*/
 .pc-navbar ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 12.5px;
-    overflow: hidden;
-    background-color: #333333;
+  list-style-type: none;
+  margin: 0;
+  padding: 12.5px;
+  overflow: hidden;
+  background-color: #333333;
 }
 
 .pc-navbar li {
-    float: left;
-}
-
-h1 {
-    color: black;
-  font-size: 34px;
-    text-align: center;
-  text-shadow: 1px 2px lightgrey;
-    font-family: 'Vegur-Regular'; /* Changes header one font to Open Sans */
+  float: left;
 }
 
 .pc-navbar li a{
@@ -67,6 +49,7 @@ h1 {
     color: #EEEEEE;
     padding: 50px;
     text-decoration: none;
+    text-shadow: none;
 }
 
 .pc-navbar li a:hover:not(#active) {
@@ -77,27 +60,67 @@ h1 {
     color: #a8a8a8;
 }
 
+/*----------------------------------
+        General functions
+------------------------------------*/
+
+body {
+    margin:0;
+    padding:0;
+    font-family: vegur;
+    border: 2px solid black;
+    background-color: white;
+}
+
+img {
+    border-radius: 8px;
+    padding: 2px;
+    background-color: black;
+    border-bottom: 2px solid #EF476F;
+    border-right: 2px solid #EF476F;
+    float: center;
+    display: block;
+    margin: auto;
+    overflow: hidden;
+}
+
+
+h1 {
+  color: #222E50;
+  font-size: 34px;
+  text-align: center;
+  text-shadow: 1px 1px black;
+  font-family: 'Vegur-Regular'; /* Changes header one font to Open Sans */
+}
+
+p{
+  text-align: center;
+  color: black;
+}
+
 /*-------------------*/
 .pc-section h1 {
-    margin-top: 20px;
-    margin-bottom: 0px;
-    text-align: center;
-	color: black;
-    font-family: vegurLight;
-    font-size: 70px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  text-align: center;
+	color: #222E50;
+  font-family: vegurLight;
+  font-size: 70px;
 }
 
 #member{
+  border: 2px solid #EF476F;
   margin:auto;
   float: center;
 }
 
 #frame{
   margin: auto;
-  display: block;
-  vertical-align: center;
-  width: 80%;
-  border:  2px solid black;
+  width: 90%;
+  background-color: black;
+  padding: 2px;
+  border-right:  2px solid #EF476F;
+  border-bottom:  2px solid #EF476F;
   border-radius: 4px;
   overflow: hidden;
 }
@@ -106,43 +129,35 @@ h1 {
   color: white;
   border-radius: 4px;
   background-color: black;
-  text-align: left;
-  border: 1px solid black;
+  border-right: 2px solid #EF476F;
+  border-bottom: 2px solid #EF476F;
+  text-align: left
   padding: 10px;
 }
 
 .pc-container {
-    padding-left: 100px;
+  padding-left: 100px;
 }
-
-/*.pc-container ul{
-    list-style-type: none;
-}
-
-.pc-container ul li{
-    float: left;
-    width: 50%;
-}*/
 
 .pc-member {
+  border-radius: 4px;
     float: left;
     width: 45%;
     margin-right: 25px;
 }
 
-.pc-member h3 h4 p {
-    color: black;
-}
-
 .pc-member h3 {
-    font-family: vegurLight;
-    font-size: 35px;
-    margin-top: -30px;
+  font-family: vegurLight;
+  font-size: 24px;
+  margin-top: -30px;
+  color: #EF476F;
+  text-shadow: 1px 1px pink;
 }
 
 .pc-member h4 {
+    /*Name*/
     font-family: vegurBold;
-    font-size: 30px;
-    /*background-color: #1e252f;
-    border-radius: 25px;*/
+    font-size: 26px;
+    color: black;
+    text-shadow: 1px 1px grey;
 }
