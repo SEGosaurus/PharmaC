@@ -49,11 +49,14 @@ body{
 
 /*------NAVBAR------*/
 .navbar ul {
-    background-color: #414449;
     list-style-type: none;
     margin: 0;
+    padding-top: 20px;
+    padding-bottom:20px;
+
+    width:100%;
     overflow: hidden;
-    padding: 12.5px;
+    background-color: #333333;
 }
 
 .navbar li {
@@ -61,8 +64,9 @@ body{
 }
 
 .navbar li a{
+    font-family: vegur;
+    font-size:1.25em;
     color: #EEEEEE;
-    font-family: vegurLight;
     padding: 50px;
     text-decoration: none;
 }
@@ -72,7 +76,7 @@ body{
 }
 
 #active {
-    color: #a8a8a8;
+    background-color: #E75A7C;
 }
 /*-------------------*/
 
@@ -84,13 +88,7 @@ body{
 
 /*-------MODULE------*/
 .module-1 {
-    border-left: 70px solid #262a33;
-    border-right: 70px solid #262a33;
-    bottom: 0;
-    left: 0;
-    position: absolute;
-    right: 0;
-    top: 44px;
+    margin: 0
 }
 
 .module-1 header {
@@ -103,7 +101,6 @@ body{
 }
 
 .module-1 header h1 {
-    font-family: vegurLight;
     font-size: 70px;
 }
 
