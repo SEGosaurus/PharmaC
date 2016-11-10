@@ -19,12 +19,11 @@
     src: url(Resources/CSS/arro_vegur/Vegur-Light.otf);
 }
 
-
 .a1 {
   font-weight: bold;
   text-decoration: none;
   color: #EF476F;
-  font-family: 'Vegur-Bold';
+  font-family: vegurBold;
   text-shadow: 1px 1px pink;
 }
 
@@ -36,7 +35,10 @@
 .pc-navbar ul {
   list-style-type: none;
   margin: 0;
-  padding: 12.5px;
+  padding-top: 10px;
+  padding-bottom:10px;
+
+  width:100%;
   overflow: hidden;
   background-color: #333333;
 }
@@ -46,11 +48,11 @@
 }
 
 .pc-navbar li a{
-    font-family: vegurLight;
-    color: #EEEEEE;
-    padding: 50px;
-    text-decoration: none;
-    text-shadow: none;
+  font-family: vegur;
+  font-size:1.25em;
+  color: #EEEEEE;
+  padding: 40px;
+  text-decoration: none;
 }
 
 .pc-navbar li a:hover:not(#active) {
@@ -77,21 +79,18 @@ img {
     border-radius: 8px;
     padding: 2px;
     background-color: black;
-    border-bottom: 2px solid #EF476F;
-    border-right: 2px solid #EF476F;
     float: center;
     display: block;
     margin: auto;
     overflow: hidden;
 }
 
-
 h1 {
   color: #222E50;
   font-size: 34px;
   text-align: center;
   text-shadow: 1px 1px black;
-  font-family: 'Vegur-Regular'; /* Changes header one font to Open Sans */
+  font-family: vegur; /* Changes header one font to Open Sans */
 }
 
 p{
@@ -116,43 +115,49 @@ p{
 }
 
 #frame{
-  margin: auto;
-  width: 90%;
-  background-color: black;
-  padding: 2px;
-  border-right:  2px solid #EF476F;
-  border-bottom:  2px solid #EF476F;
+  display: block;
+  border: 2px solid black;
   border-radius: 4px;
+  width: 75%;
+  padding: auto;
+  margin: auto;
+  vertical-align: center;
   overflow: hidden;
 }
 
 .p1 {
   color: white;
   border-radius: 4px;
-  background-color: black;
-  border-right: 2px solid #EF476F;
-  border-bottom: 2px solid #EF476F;
+  background-color: #222E50;
+  border: 3px solid black;
   text-align: left
-  padding: 10px;
+  padding: 20px;
+  margin: 10px;
 }
 
 .pc-container {
-  padding-left: 100px;
+  padding: auto;
 }
 
 .pc-member {
+  display: block;
   border-radius: 4px;
-    float: left;
-    width: 45%;
-    margin-right: 25px;
+  float: left;
+  width: 48%;
+  margin-right: 25px;
 }
 
 .pc-member h3 {
-  font-family: vegurLight;
-  font-size: 24px;
-  margin-top: -30px;
+  display: inline-block;
+  font-family: vegurBold
+  font-size: 30px;
+  margin-top: -35px;
   color: #EF476F;
-  text-shadow: 1px 1px pink;
+  margin-left: 30px;
+  border-radius: 4px;
+  background-color: black;
+  border: 3px solid #EF476F;
+  padding: 10px;
 }
 
 .pc-member h4 {
