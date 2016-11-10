@@ -3,21 +3,22 @@
 ---------------------------*/
 @font-face {
     font-family: vegur;
-    src: url(arro_vegur/Vegur-Regular.otf);
     font-weight: normal;
+    src: url(Resources/CSS/arro_vegur/Vegur-Regular.otf);
 }
 
 @font-face {
     font-family: vegurBold;
-    src: url(arro_vegur/Vegur-Bold.otf);
     font-weight: bold;
+    src: url(Resources/CSS/arro_vegur/Vegur-Bold.otf);
 }
 
 @font-face {
     font-family: vegurLight;
-    src: url(arro_vegur/Vegur-Light.otf);
-    font-weight: lighter;;
+    font-weight: lighter;
+    src: url(Resources/CSS/arro_vegur/Vegur-Light.otf);
 }
+
 
 .a1 {
   font-weight: bold;
@@ -57,7 +58,7 @@
 }
 
 #active {
-    color: #a8a8a8;
+    background-color: #E75A7C;
 }
 
 /*----------------------------------
