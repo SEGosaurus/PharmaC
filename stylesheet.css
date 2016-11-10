@@ -69,20 +69,38 @@ body{
     margin-right:0%;
     
     padding-bottom: 15%;
-    padding-top:25%;
+    padding-top:20%;
     display: block;
-    background-color: #313d4d;
-  
+    background-image: url(images/medications-cure-tablets-pharmacy-56612.jpeg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image:
 
 }
 
 #div1 h1 {
     font-family:vegur;
-    color: whitesmoke;
+    color: #313d4d;
     font-weight: bold;
     font-size: 64px;
     padding-left:5%;
 }
+
+#div1 h2{
+    font-family:vegur;
+    color: #ef476f;
+    font-weight: bold;
+    font-size: 75px;
+    
+    display:block;
+    
+    position: absolute;
+    padding-left:18.5%;
+    padding-bottom: 10.5%;
+    
+    bottom: 100px;
+    }
 
 
 #div1 p1{
@@ -114,8 +132,10 @@ body{
 #div2 p1{
     font-size:35px;
     
-    position: absolute;
-    padding-left: 10%;
+    position:relative;
+    display: block;
+    
+    padding-left:10%;
 }
 
 #div3{
