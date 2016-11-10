@@ -45,18 +45,34 @@ strong {
 
 /*-------PAGE-------*/
 body{
-    background-color: #313d4d;
-    color: white;
+    background-color: whitesmoke;
+    color: #111;
     font-family: vegur;
     margin:0;
     padding:0;
+}
+
+h1{
+    color: #222E50;
+}
+
+strong {
+  font-weight: bold;
+  text-decoration: none;
+  color: #5FACE5; /*Change this to change the color of the Pharma*/
+  font-family: vegurBold;
+}
+
+b{
+    color: #EF476F;
+    font-family: vegurBold;
 }
 /*------------------*/
 
 /*------NAVBAR------*/
 .navbar ul {
     list-style-type: none;
-    margin: 0;
+    margin: 0px;
     padding-top: 10px;
     padding-bottom:10px;
 
@@ -94,7 +110,7 @@ body{
 
 /*-------MODULE------*/
 .module-1 {
-    margin: 0
+    margin: 0px;
 }
 
 .module-1 header {
@@ -107,23 +123,26 @@ body{
 }
 
 .module-1 header h1 {
-    font-size: 70px;
+    font-size: 90px;
 }
 
 .module-1 header h2 {
     color: #878787;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .module-1 .contents {
-    margin-left: 100px;
-    width: 800px;
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
 }
 
 .module-1 .contents .question h3 {
-    background-color: #4A505E;
     border-radius: 25px;
+    border: 2px solid #111;
+    color: #111;
     font-family: vegurLight;
+    font-size: 30px;
     padding: 10px 0px 10px 15px;
 }
 
@@ -135,10 +154,12 @@ body{
 .module-1 .contents .answer p {
     margin: 0;
     padding: 0;
+    text-align: left;
+    font-size: 20px;
 }
 
 .module-1 .contents a {
-    color: #84aced;
+    color: #EF476F;
     text-decoration: none;
 }
 /*-------------------*/

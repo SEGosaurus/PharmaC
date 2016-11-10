@@ -19,26 +19,20 @@
     src: url(Resources/CSS/arro_vegur/Vegur-Light.otf);
 }
 
-.a1 {
-  font-weight: bold;
-  text-decoration: none;
-  color: #EF476F;
-  font-family: vegurLight;
-  text-shadow: 1px 1px pink;
-}
-
-.a1:hover{
-   font-family: vegurBold;
-}
-
 /*------------NAVBAR----------------*/
+
+.pc-navbar{
+  position: fixed;
+  width: 100%;
+}
+
 .pc-navbar ul {
   list-style-type: none;
-  margin: 0;
+  margin: 0px;
   padding-top: 10px;
   padding-bottom:10px;
 
-  width:100%;
+  width: 100%;
   overflow: hidden;
   background-color: #333333;
 }
@@ -101,10 +95,31 @@ p{
 /*-------------------*/
 
 b {
+  font-size: 18px;
   font-weight: bold;
   text-decoration: none;
   color: #EF476F;
   font-family: vegurBold;
+}
+
+strong {
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #5FACE5;/*Change this to change the color of the Pharma*/
+  font-family: vegurBold;
+}
+
+.a1 {
+  font-weight: bold;
+  text-decoration: none;
+  color: #EF476F;
+  font-family: vegurLight;
+  text-shadow: 1px 1px pink;
+}
+
+.a1:hover{
+   font-family: vegurBold;
 }
 
 #member{
@@ -118,6 +133,7 @@ b {
   border: 2px solid black;
   border-radius: 4px;
   width: 80%;
+  height: 400px;
   padding: auto;
   margin: auto;
   vertical-align: center;
