@@ -172,4 +172,9 @@ b{
     color: #EF476F;
     text-decoration: none;
 }
+
+.module-1 .contents a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
 /*-------------------*/

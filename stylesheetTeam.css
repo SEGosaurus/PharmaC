@@ -115,15 +115,14 @@ strong {
 }
 
 .a1 {
-  font-weight: bold;
   text-decoration: none;
   color: #EF476F;
-  font-family: vegurLight;
-  text-shadow: 1px 1px pink;
+  font-family: vegur;
 }
 
 .a1:hover{
    text-decoration: underline;
+   font-weight: bold;
 }
 
 #member{
