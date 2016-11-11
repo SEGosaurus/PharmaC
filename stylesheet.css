@@ -158,20 +158,22 @@ body{
    margin:auto;
 
     display: block;
-    background-image:url(images/medications-cure-tablets-pharmacy-51004.jpeg);
+    background-image:linear-gradient( rgba(49,61,77,0.5), rgba(49,61,77,0.5) ), url(images/medications-cure-tablets-pharmacy-51004.jpeg);
     background-size: cover;
     background-position:center;
+
 }
 
 #div3 h1{
-    padding-top:12.5%;
-    padding-bottom:2.5%;
+    padding-top:5%;
+    padding-left:5%;
     font-family:vegur;
     color: whitesmoke;
     font-weight: bold;
     font-size: 60px;
     font-weight:500;
-    text-align: center;
+    text-align: left;
+    
 }
 
 #div3 b2{
@@ -192,10 +194,11 @@ body{
     margin-right:5%;
     font-family: vegur;
     
-    text-align: center;
+    text-align: left;
     display: block;
     
     padding-bottom:15%;
+    padding-left:7%;
 }
 
 #div4 {
@@ -329,11 +332,9 @@ body{
 #div7 {
     margin-top:-5%;
     font-family: vegur;
-    background-image: url(images/medications-cure-tablets-pharmacy-56612.jpeg);
-    background-size: cover;
-    background-position:top;
-    
+    background-color:whitesmoke;
     color:#313d4d;
+    padding-bottom:15%;
     
 }
 
@@ -341,25 +342,24 @@ body{
     font-size: 60px;
     font-weight:500;
     
-    text-align: left;
-    
-    padding-left: 5%;
+    text-align: center;
+
     padding-top:5%;
     
 }
 
 #div7 p1{
     
-    font-size: 35px;
-    padding-left: 7%;
+    font-size: 45px;
     
     display:block;
+    text-align: center;
     
-    padding-bottom:25%;
+    padding-bottom:4%;
     
 }
 
-#div6 b2{
+#div7 b2{
     
     color: #ef476f;
     font-weight: bold;
