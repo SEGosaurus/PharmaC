@@ -196,6 +196,7 @@ body{
     font-size:40px;
     margin-left:5%;
     margin-right:5%;
+<<<<<<< HEAD
     font-family: vegur;
     
     text-align: left;
@@ -234,6 +235,46 @@ body{
     
     display:block;
     
+=======
+    font-family: vegur;
+    
+    text-align: left;
+    display: block;
+    
+    padding-bottom:15%;
+    padding-left:7%;
+}
+
+#div4 {
+    margin-top:-5%;
+    font-family: vegur;
+    background-image: url(images/medications-cure-tablets-pharmacy-56612.jpeg);
+    background-size: cover;
+    background-position:top;
+    
+    color:#313d4d;
+    
+}
+
+#div4 h1{
+    font-size: 60px;
+    font-weight:500;
+    
+    text-align: left;
+    
+    padding-left: 5%;
+    padding-top:5%;
+    
+}
+
+#div4 p1{
+    
+    font-size: 35px;
+    padding-left: 7%;
+    
+    display:block;
+    
+>>>>>>> 0d7e60a2b43ffe20674ab735ecea95acc2bd3732
     padding-bottom:25%;
     
 }
@@ -252,6 +293,7 @@ body{
 #div5 h1{
     font-size: 65px;
     font-weight:500;
+<<<<<<< HEAD
     
     text-align: center;
     
@@ -367,6 +409,129 @@ body{
 }
 
 #div7 b2{
+=======
+    
+    text-align: center;
+    
+    padding-top:14%;
+    padding-bottom:1%;
+>>>>>>> 0d7e60a2b43ffe20674ab735ecea95acc2bd3732
+    
+    color: #ef476f;
+    font-weight: bold;
+}
+
+<<<<<<< HEAD
+#div7 b1{
+    color:#313d4d;
+    font-weight:bold;
+}
+
+=======
+#div5 p1{
+    
+    font-size: 45px;
+    
+    display:block;
+    
+    text-align: center;
+    
+    padding-bottom:17%;
+    
+}
+
+#div5 b2{
+    
+    color: #ef476f;
+    font-weight: bold;
+}
+
+#div5 b1{
+    color:#313d4d;
+    font-weight:bold;
+
+}
+
+#div6 {
+    margin-top:-5%;
+    font-family: vegur;
+    background-image: linear-gradient( rgba(0,0,0,0.9), rgba(0,0,0,0.4) ), url(images/matrix-1735640_1920.jpg);
+    background-size: cover;
+    background-position:top;
+    
+    padding-bottom:12%;
+    
+    color:whitesmoke;
+    
+}
+
+#div6 h1{
+    font-size: 60px;
+    font-weight:500;
+    
+    text-align: center;
+    
+    padding-top:10%;
+    
+    color:#313d4d
+}
+
+#div6 p1{
+    
+    font-size: 40px;
+    
+    display:block;
+    margin-left: 5%;
+    margin-right:5%;
+    
+    text-align: center;
+    
+    padding-bottom:1%;
+    
+}
+
+#div6 b2{
+    
+    color: #ef476f;
+    font-weight: bold;
+}
+
+#div6 b1{
+    color:#313d4d;
+    font-weight:bold;
+}
+
+#div7 {
+    margin-top:-5%;
+    font-family: vegur;
+    background-color:whitesmoke;
+    color:#313d4d;
+    padding-bottom:16.5%;
+    
+}
+
+#div7 h1{
+    font-size: 60px;
+    font-weight:500;
+    
+    text-align: center;
+
+    padding-top:5%;
+    
+}
+
+#div7 p1{
+    
+    font-size: 45px;
+    
+    display:block;
+    text-align: center;
+    
+    padding-bottom:4%;
+    
+}
+
+#div7 b2{
     
     color: #ef476f;
     font-weight: bold;
@@ -377,6 +542,7 @@ body{
     font-weight:bold;
 }
 
+>>>>>>> 0d7e60a2b43ffe20674ab735ecea95acc2bd3732
 
 
 >>>>>>> 58ede159a159fecc4c0ce9d445fb4ed43dc0380f
